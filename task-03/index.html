@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>عيادة الأسنان</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap 5 RTL -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+        integrity="sha512-XcIsjKMcuVe0Ucj/xgIXQnytNwBttJbNjltBV18IOnru2lDPe9KRRyvCXw6Y5H415vbBLRm8+q6fmLUU7DfO6Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--  Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="css.css">
+
+</head>
+
+<body>
+
+    <!-- ===== Navbar ===== -->
+
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm fixed-top">
+        <div class="container">
+
+            <!-- الشعار -->
+            <a class="navbar-brand fw-bold text-primary" href="#">DentalCare</a>
+
+            <!-- زر الموبايل -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- القوائم -->
+            <div class="collapse navbar-collapse justify-content-center" id="mainNav">
+                <ul class="navbar-nav gap-3">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">الرئيسية</a></li>
+                    <li class="nav-item"><a class="nav-link" href="why-us.html">لماذا نحن</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">خدماتنا</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html">كادر العمل</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pricing.html">التسعيرة</a></li>
+                    <li class="nav-item"><a class="nav-link" href="solutions.html">حلول طب الأسنان</a></li>
+                </ul>
+            </div>
+
+            <!-- زر الحجز -->
+            <div class="d-none d-lg-block">
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                    احجز موعد
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <main>
+        <!-- ===== Hero Section ===== -->
+    <section class="hero mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                    <h1 class="fw-bold mb-3">الابتسامة تبدأ من هنا</h1>
+                    <p class="mb-4">
+                        نقدم رعاية متكاملة لطب الأسنان باستخدام أحدث التقنيات وبأيدي مختصة.
+                    </p>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                        احجز موعدك الآن
+                    </button>
+                </div>
+                <div class="col-lg-6 text-center" data-aos="fade-left">
+                    <img src="img/hero.jpg" class="img-fluid rounded-4" alt="طبيب أسنان">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Services ===== -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">خدماتنا</h2>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+                    <div class="card h-100 text-center shadow-sm border-0">
+                        <div class="card-body">
+                            <h5 class="card-title">تنظيف الأسنان</h5>
+                            <p class="card-text">العناية الدورية للحفاظ على صحة الفم.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100 text-center shadow-sm border-0">
+                        <div class="card-body">
+                            <h5 class="card-title">تبييض الأسنان</h5>
+                            <p class="card-text">ابتسامة أكثر إشراقًا بأمان تام.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card h-100 text-center shadow-sm border-0">
+                        <div class="card-body">
+                            <h5 class="card-title">زراعة الأسنان</h5>
+                            <p class="card-text">حلول دائمة لتعويض الأسنان المفقودة.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card h-100 text-center shadow-sm border-0">
+                        <div class="card-body">
+                            <h5 class="card-title">تقويم الأسنان</h5>
+                            <p class="card-text">تصحيح اصطفاف الأسنان بطرق حديثة.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ===== Why Us ===== -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">لماذا نحن؟</h2>
+
+            <div class="row g-4 text-center">
+                <div class="col-md-4" data-aos="flip-left" data-aos-delay="0">
+                    <div class="p-4 bg-white rounded-4 shadow-sm">
+                        <h5 class="fw-bold">أطباء متخصصون</h5>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="flip-left" data-aos-delay="100">
+                    <div class="p-4 bg-white rounded-4 shadow-sm">
+                        <h5 class="fw-bold">أجهزة حديثة</h5>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="flip-left" data-aos-delay="300">
+                    <div class="p-4 bg-white rounded-4 shadow-sm">
+                        <h5 class="fw-bold">تعقيم كامل</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- Booking Modal -->
+    <div class="modal fade" id="bookingModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">حجز موعد</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">الاسم الكامل</label>
+                            <input type="text" class="form-control" placeholder="أدخل اسمك" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">رقم الهاتف</label>
+                            <input type="tel" class="form-control" placeholder="059xxxxxxx" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">نوع الخدمة</label>
+                            <select class="form-select">
+                                <option>تنظيف الأسنان</option>
+                                <option>تبييض الأسنان</option>
+                                <option>زراعة الأسنان</option>
+                                <option>تقويم الأسنان</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">ملاحظات</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary" data-bs-dismiss="modal">إغلاق</button>
+                            <button class="btn btn-primary">إرسال الطلب</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======================
+    ===========Footer========== 
+    ======================= -->
+    <footer class="py-4 text-white" >
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- Links -->
+                <div class="col-md-4">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">الرئيسية</a></li>
+                        <li class="nav-item"><a class="nav-link" href="why-us.html">لماذا نحن</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">خدماتنا</a></li>
+                        <li class="nav-item"><a class="nav-link" href="team.html">كادر العمل</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pricing.html">التسعيرة</a></li>
+                        <li class="nav-item"><a class="nav-link" href="solutions.html">حلول طب الأسنان</a></li>
+                    </ul>
+                </div>
+
+                <!-- CTA -->
+                <div class="col-md-4 text-center">
+                    <h2 class="fw-bold mb-3">احجز موعدك الآن</h2>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                        احجز موعد
+                    </button>
+                </div>
+
+                <!-- Contact & Social -->
+                <div class="col-md-4 text-center">
+                    <div class="footer-social mb-2">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+
+                    <p class="footer-phone mb-0">
+                        📞
+                        <a href="tel:+970599123456" class="text-white text-decoration-none">
+                            +970 599 123 456
+                        </a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <div class="bottm-footer py-3 text-center text-white " style="background:#0b3d4a;">
+        <p class="mb-0">© 2026 جميع الحقوق محفوظة | عيادة DentalCare</p>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="js/js.js"></script>
+</body>
+
+</html>
